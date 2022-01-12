@@ -1,0 +1,10 @@
+create table stud01112(
+	studno number(8) primary key,
+	name varchar2(20) not null,
+	dept number(2) not null,
+	position number(1) not null,
+	address varchar2(80),
+	phone varchar2(13),
+	hobby varchar2(80)
+);
+
