@@ -38,7 +38,7 @@
 			
 			pstmt.executeUpdate();
 			%><script>
-				alert("수정이 완료되었습니다.");
+				alert("변경이 완료되었습니다.");
 				location.href="/HRD_0112/stud0112/stud0112_select.jsp";
 			</script><%
 			

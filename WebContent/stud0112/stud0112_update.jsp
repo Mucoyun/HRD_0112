@@ -52,7 +52,7 @@
 			}
 		}
 		function retry() {
-			location.href="/HRD_0112/index.jsp";
+			history.back(-1);
 		}
 	</script>
 </head>
@@ -99,7 +99,7 @@
 		}
 	%>
 	<section>
-		<h2>학사 정보 수정 화면</h2>
+		<h2>학사 정보 변경</h2>
 		<form name="s_form"  method="post" action="stud0112_update_process.jsp">
 			<table id="si_table">
 				<tr>
@@ -157,8 +157,8 @@
 				</tr>
 				<tr>
 					<td id="btntd" colspan="2">
-						<button type="button" onclick="check()">등록</button>
-						<button type="button" onclick="retry()">취소</button>
+						<button type="button" onclick="check()">변경</button>
+						<button type="button" onclick="retry()">뒤로</button>
 					</td>
 				</tr>
 			</table>

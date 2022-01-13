@@ -45,13 +45,13 @@
 	<%@ include file="/header.jsp" %>
 	<%@ include file="/nav.jsp" %>
 	<section>
-		<h2>학사 정보 목록</h2>
+		<h2>학사 정보 조회</h2>
 		<table id="ss_table">
 			<tr>
 				<th width="100">학번</th>
 				<th width="100">성명</th>
-				<th width="50">학과</th>
-				<th width="50">학년</th>
+				<th width="200">학과</th>
+				<th width="100">학년</th>
 				<th width="200">주소</th>
 				<th width="200">연락처</th>
 				<th width="300">취미</th>
@@ -70,12 +70,23 @@
 						String address = rs.getString(5);
 						String phone = rs.getString(6);
 						String hobby = rs.getString(7);
+						
+						if(dept.equals("1")){ dept="컴퓨터공학과"; }
+						else if(dept.equals("2")){ dept="기계공학과"; }
+						else if(dept.equals("3")){ dept="전자과"; }
+						else if(dept.equals("4")){ dept="영문학과"; }
+						else if(dept.equals("5")){ dept="일어과"; }
+						else if(dept.equals("6")){ dept="경영학과"; }
+						else if(dept.equals("7")){ dept="무역학과"; }
+						else if(dept.equals("8")){ dept="교육학과"; }
+						else{ dept="미등록학과"; }
+						
 						%>
 							<tr>
 								<td><%=studno %></td>
 								<td><%=name %></td>
 								<td><%=dept %></td>
-								<td><%=position %></td>
+								<td><%=position %>학년</td>
 								<td><%=address %></td>
 								<td><%=phone %></td>
 								<td><%=hobby %></td>

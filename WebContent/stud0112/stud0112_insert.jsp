@@ -60,7 +60,7 @@
 	<%@ include file="/header.jsp" %>
 	<%@ include file="/nav.jsp" %>
 	<section>
-		<h2>수강신청 도우미 시스템</h2>
+		<h2>학사 정보 추가</h2>
 		<form name="s_form"  method="post" action="stud0112_insert_process.jsp">
 			<table id="si_table">
 				<tr>

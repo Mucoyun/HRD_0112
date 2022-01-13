@@ -10,13 +10,13 @@
 	<nav>
 		<ul>
 			<li><a href="/HRD_0112/stud0112/stud0112_insert.jsp">학사 정보 추가</a></li>
-			<li><a href="#">교과목 추가</a></li>
-			<li><a href="#">강사 추가</a></li>
+			<li><a href="/HRD_0112/course0112/course0112_insert.jsp">교과목 추가</a></li>
+			<li><a href="/HRD_0112/lecturer0112/lecturer0112_insert.jsp">강사 추가</a></li>
 			<li><a href="#">수강정보 추가</a></li>
 			
 			<li><a href="/HRD_0112/stud0112/stud0112_select.jsp">학사 정보 조회</a></li>
-			<li><a href="#">교과목 조회</a></li>
-			<li><a href="#">강사 조회</a></li>
+			<li><a href="/HRD_0112/course0112/course0112_select.jsp">교과목 조회</a></li>
+			<li><a href="/HRD_0112/lecturer0112/lecturer0112_select.jsp">강사 조회</a></li>
 			<li><a href="#">수강정보 조회</a></li>
 			
 			<li><a href="/HRD_0112/index.jsp">홈으로</a></li>
